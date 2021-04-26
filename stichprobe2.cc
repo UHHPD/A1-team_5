@@ -40,13 +40,13 @@ ofstream fout2 ("varianzen.txt");
 ifstream fin3 ("datensumme.txt");
 ifstream fin4 ("datensumme.txt");
 
-float mean_mean=0;
-float mean_var=0;
+double mean_mean=0;
+double mean_var=0;
 
-int aj;
+int aj=0;
 for (int n=1; n<=26; ++n){
-  float mean=0;
-  float var=0;
+  double mean=0;
+  double var=0;
   for (int n=1; n<=9; ++n){
     fin3 >> aj;
     mean+=aj;
