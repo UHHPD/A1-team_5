@@ -69,6 +69,7 @@ mean_var=mean_var/26;
 std::cout << "Mittelwert der Mittelwerte: "<< mean_mean << std::endl;
 std::cout << "Mittelwert der Varianzen: "<< mean_var << std::endl;
 fout.close();
+fout2.close();
 fin3.close();
 fin4.close();
 
