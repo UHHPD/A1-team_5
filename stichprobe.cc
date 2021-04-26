@@ -31,4 +31,5 @@ fin2.close();
 
 float std = sqrt(varianz);
 std::cout << std << std::endl;
+
 }
